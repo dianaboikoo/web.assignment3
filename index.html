@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gra Pamięć</title>
+    <title>Merry Christmas!</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <h1>Christmas game</h1>
+    
+    <h1>Christmas Game</h1>
 
     <div class="game-info">
-        <div>Tries: <span id="tries-count">0</span></div>
-        <div>Best score: <span id="best-score">-</span></div>
+        
+        <div><span id="score">0</span></div> 
+        
+        <div>Timer: <span id="timer">00:00</span></div> 
+        
+        <div>Best Time: <span id="bestTimeDisplay">N/A</span></div> 
+        
     </div>
 
-    <div id="game-board">
+    <div id="gameBoard" class="game-board">
         </div>
 
-    <button id="reset-btn">Reset</button>
+    <aside>
+        <h2>Instructions</h2>
+        <p>Click on the decorations to find matching pairs. Try to complete the game in as few tries as possible!</p>
+        <p>Good luck and have fun!</p>
+        
+    </aside>
+
+    <button id="resetButton">Reset</button>
 
     <script src="javascript/game.js"></script>
 </body>
